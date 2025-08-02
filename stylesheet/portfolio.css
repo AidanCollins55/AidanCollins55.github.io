@@ -527,3 +527,23 @@ button:hover, .form-container .btn:hover {
     }
 }
 /***** End of Media Query Section *****/
+
+
+.sticky-resume-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #030303; /* Bootstrap blue */
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.sticky-resume-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
